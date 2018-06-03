@@ -31,6 +31,9 @@ public class Demo {
         StringBuilder w1442 = new StringBuilder();
         StringBuilder w1014 = new StringBuilder();
         StringBuilder w785 = new StringBuilder();
+        StringBuilder w485 = new StringBuilder();
+        StringBuilder w432 = new StringBuilder();
+        StringBuilder w540 = new StringBuilder();
 
         try {
             System.out.println("生成不同分辨率：");
@@ -64,6 +67,10 @@ public class Demo {
                     w1442.append(start).append(splitAndRound((float) (num * 2.003), 3)).append(end).append("\n");
                     w1014.append(start).append(splitAndRound((float) (num * 1.375), 3)).append(end).append("\n");
                     w785.append(start).append(splitAndRound((float) (num * 2.453125), 3)).append(end).append("\n");
+                    w485.append(start).append(splitAndRound((float) (num * 1.515625), 3)).append(end).append("\n");
+                    w432.append(start).append(splitAndRound((float) (num * 1.35), 3)).append(end).append("\n");
+                    w540.append(start).append(splitAndRound((float) (num * 1.6875), 3)).append(end).append("\n");
+
                 } else {
                     sw480.append(tempString).append("\n");
                     sw600.append(tempString).append("\n");
@@ -82,6 +89,9 @@ public class Demo {
                     w1442.append(tempString).append("\n");
                     w1014.append(tempString).append("\n");
                     w785.append(tempString).append("\n");
+                    w485.append(tempString).append("\n");
+                    w432.append(tempString).append("\n");
+                    w540.append(tempString).append("\n");
                 }
                 line++;
             }
@@ -113,6 +123,9 @@ public class Demo {
             String w1442file = "./app/src/main/res/values-w1442dp/dimens.xml";
             String w1014file = "./app/src/main/res/values-sw1014dp/dimens.xml";
             String w785file = "./app/src/main/res/values-sw785dp/dimens.xml";
+            String w485file = "./app/src/main/res/values-sw485dp/dimens.xml";
+            String w432file = "./app/src/main/res/values-sw432dp/dimens.xml";
+            String w540file = "./app/src/main/res/values-sw540dp/dimens.xml";
             writeFile(sw480file, sw480.toString());
             writeFile(sw600file, sw600.toString());
             writeFile(sw720file, sw720.toString());
@@ -130,6 +143,9 @@ public class Demo {
             writeFile(w1442file, w1442.toString());
             writeFile(w1014file, w1014.toString());
             writeFile(w785file, w785.toString());
+            writeFile(w485file, w485.toString());
+            writeFile(w432file, w432.toString());
+            writeFile(w540file, w540.toString());
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

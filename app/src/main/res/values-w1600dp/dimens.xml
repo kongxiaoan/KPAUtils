@@ -1,88 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="k_dp_1">2.22dp</dimen>
-    <dimen name="k_dp_2">4.44dp</dimen>
-    <dimen name="k_dp_3">6.66dp</dimen>
-    <dimen name="k_dp_4">8.88dp</dimen>
-    <dimen name="k_dp_5">11.1dp</dimen>
-    <dimen name="k_dp_6">13.32dp</dimen>
-    <dimen name="k_dp_7">15.54dp</dimen>
-    <dimen name="k_dp_8">17.76dp</dimen>
-    <dimen name="k_dp_9">19.98dp</dimen>
-    <dimen name="k_dp_10">22.2dp</dimen>
-    <dimen name="k_dp_11">24.42dp</dimen>
-    <dimen name="k_dp_12">26.64dp</dimen>
-    <dimen name="k_dp_13">28.86dp</dimen>
-    <dimen name="k_dp_14">31.08dp</dimen>
-    <dimen name="k_dp_15">33.3dp</dimen>
-    <dimen name="k_dp_16">35.52dp</dimen>
-    <dimen name="k_dp_17">37.74dp</dimen>
-    <dimen name="k_dp_18">39.96dp</dimen>
-    <dimen name="k_dp_19">42.18dp</dimen>
-    <dimen name="k_dp_20">44.4dp</dimen>
-    <dimen name="k_dp_21">46.62dp</dimen>
-    <dimen name="k_dp_22">48.84dp</dimen>
-    <dimen name="k_dp_23">51.06dp</dimen>
-    <dimen name="k_dp_24">53.28dp</dimen>
-    <dimen name="k_dp_25">55.5dp</dimen>
-    <dimen name="k_dp_26">57.72dp</dimen>
-    <dimen name="k_dp_27">59.94dp</dimen>
-    <dimen name="k_dp_28">62.16dp</dimen>
-    <dimen name="k_dp_29">64.38dp</dimen>
-    <dimen name="k_dp_30">66.6dp</dimen>
-    <dimen name="k_dp_31">68.82dp</dimen>
-    <dimen name="k_dp_32">71.04dp</dimen>
-    <dimen name="k_dp_33">73.26dp</dimen>
-    <dimen name="k_dp_34">75.48dp</dimen>
-    <dimen name="k_dp_35">77.7dp</dimen>
-    <dimen name="k_dp_36">79.92dp</dimen>
-    <dimen name="k_dp_37">82.14dp</dimen>
-    <dimen name="k_dp_38">84.36dp</dimen>
-    <dimen name="k_dp_39">86.58dp</dimen>
-    <dimen name="k_dp_40">88.8dp</dimen>
-    <dimen name="k_dp_45">99.9dp</dimen>
-    <dimen name="k_dp_50">111.0dp</dimen>
-    <dimen name="k_dp_55">122.1dp</dimen>
-    <dimen name="k_dp_60">133.2dp</dimen>
-    <dimen name="k_dp_65">144.3dp</dimen>
-    <dimen name="k_dp_68">150.96dp</dimen>
-    <dimen name="k_dp_70">155.4dp</dimen>
-    <dimen name="k_dp_75">166.5dp</dimen>
-    <dimen name="k_dp_80">177.6dp</dimen>
-    <dimen name="k_dp_85">188.7dp</dimen>
-    <dimen name="k_dp_90">199.8dp</dimen>
-    <dimen name="k_dp_95">210.9dp</dimen>
-    <dimen name="k_dp_99">219.78dp</dimen>
-    <dimen name="k_dp_100">222.0dp</dimen>
-    <dimen name="k_dp_112">248.64dp</dimen>
-    <dimen name="k_dp_140">310.8dp</dimen>
-    <dimen name="k_dp_150">333.0dp</dimen>
-    <dimen name="k_dp_176">390.72dp</dimen>
-    <dimen name="k_dp_188">417.36dp</dimen>
-    <dimen name="k_dp_236">523.92dp</dimen>
-    <dimen name="k_dp_240">532.8dp</dimen>
-    <dimen name="k_dp_360">799.2dp</dimen>
-    <dimen name="k_dp_390">865.8dp</dimen>
-    <dimen name="k_sp_5">11.1sp</dimen>
-    <dimen name="k_sp_6">13.32sp</dimen>
-    <dimen name="k_sp_7">15.54sp</dimen>
-    <dimen name="k_sp_8">17.76sp</dimen>
-    <dimen name="k_sp_9">19.98sp</dimen>
-    <dimen name="k_sp_10">22.2sp</dimen>
-    <dimen name="k_sp_11">24.42sp</dimen>
-    <dimen name="k_sp_12">26.64sp</dimen>
-    <dimen name="k_sp_13">28.86sp</dimen>
-    <dimen name="k_sp_14">31.08sp</dimen>
-    <dimen name="k_sp_15">33.3sp</dimen>
-    <dimen name="k_sp_16">35.52sp</dimen>
-    <dimen name="k_sp_17">37.74sp</dimen>
-    <dimen name="k_sp_18">39.96sp</dimen>
-    <dimen name="k_sp_19">42.18sp</dimen>
-    <dimen name="k_sp_20">44.4sp</dimen>
-    <dimen name="k_sp_21">46.62sp</dimen>
-    <dimen name="k_sp_22">48.84sp</dimen>
-    <dimen name="k_sp_23">51.06sp</dimen>
-    <dimen name="k_sp_24">53.28sp</dimen>
-    <dimen name="k_sp_25">55.5sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">35.52dp</dimen>
+    <dimen name="nav_header_height">355.2dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">35.52dp</dimen>
+
+    <dimen name="home_page_title_height">106.56dp</dimen>
+    <dimen name="hm_content_pinned_height">79.92dp</dimen>
+    <dimen name="wm_page_title_height">111.0dp</dimen>
+    <dimen name="home_page_fragment_item_height">137.64dp</dimen>
+    <dimen name="home_page_line_item_height">186.48dp</dimen>
+    <dimen name="home_page_title_back_margin_right">71.04dp</dimen>
+    <dimen name="home_page_fragment_info_margin">44.4dp</dimen>
+    <dimen name="home_page_frame_iv_margin_bottom">35.52dp</dimen>
+    <dimen name="home_page_text_margin">17.76dp</dimen>
+    <dimen name="home_page_wimo_home_tv_margin_bottom">106.56dp</dimen>
+    <dimen name="home_page_fragment_info_iv_margin_left">35.52dp</dimen>
+    <dimen name="home_page_fragment_item_margin">8.88dp</dimen>
+    <dimen name="home_page_fragment_item_margin_bottom">4.44dp</dimen>
+    <dimen name="home_page_fragment_item_margin_left">26.64dp</dimen>
+    <dimen name="remote_control_middle_bg_length">621.6dp</dimen>
+    <dimen name="remote_control_middle_bg_margin_top">122.1dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="drawer_shadow_width">33.3ip</dimen>
+    <dimen name="drawer_remind_width">193.14ip</dimen>
+    <dimen name="drawer_remind_videoplay_width">1005.66ip</dimen>
+    <dimen name="drawer_remind_videoplay_width_2">899.1ip</dimen>
+    <dimen name="device_sd_mgmt_item_padding_top">33.3dp</dimen>
+    <dimen name="device_sd_mgmt_item_padding_bottom">33.3dp</dimen>
+    <dimen name="sp20">44.4sp</dimen>
+    <dimen name="sp22">48.84sp</dimen>
+    <dimen name="auth_list_item">39.96sp</dimen>
+    <dimen name="sp18">39.96sp</dimen>
+    <dimen name="sp16">35.52dp</dimen>
+    <!-- line manager -->
+    <dimen name="item_padding">2.22dp</dimen>
+    <dimen name="item_margin_top">28.86dp</dimen>
+    <dimen name="item_margin_left">42.18dp</dimen>
+    <dimen name="item_margin_right">31.08dp</dimen>
+    <dimen name="item_text_margin_top">44.4dp</dimen>
+    <dimen name="item_text_margin_top1">48.84dp</dimen>
+    <dimen name="item_text_spacing">8.88dp</dimen>
+    <dimen name="item_iv_margin_right">26.64dp</dimen>
+    <dimen name="item_iv_margin_left">8.88dp</dimen>
+    <!-- hm music list head-->
+    <dimen name="hm_mlhiv_length">46.62dp</dimen>
+    <dimen name="hm_mlhiv_mleft">17.76dp</dimen>
+    <dimen name="hm_mlhiv_mtop">22.2dp</dimen>
+
+    <!-- hm music play pop-->
+    <dimen name="hm_mpp_voice_width">237.54dp</dimen>
+    <dimen name="hm_mpp_mtop">39.96dp</dimen>
+    <dimen name="hm_mpp_tv_margin">15.54dp</dimen>
+    <dimen name="hm_mpp_voice_margin">-11.1dp</dimen>
+    <dimen name="hm_mpp_mcv_marginRight">-22.2dp</dimen>
+    <!-- hm movie play pop-->
+    <dimen name="hm_mpp_voice_marginTop">177.6dp</dimen>
+    <dimen name="hm_mpp_voice_marginRight">17.76dp</dimen>
+    <dimen name="hm_mpp_text_size">22.2sp</dimen>
+    <!-- hm music list head text size -->
+    <dimen name="hm_mlhtv_size">39.96sp</dimen>
+    <!-- hm music list text size -->
+    <dimen name="hm_mlttv_size">33.3sp</dimen>
+    <dimen name="hm_mlatv_size">24.42sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">35.52dp</dimen>
+    <dimen name="activity_vertical_margin">35.52dp</dimen>
+
+    <dimen name="line_hight">1.11dp</dimen>
+
+    <dimen name="header_height">133.2dp</dimen>
+    <dimen name="footer_height">199.8dp</dimen>
+    <dimen name="footer_padding">22.2dp</dimen>
+    <dimen name="akey_btn_size">111.0dp</dimen>
 </resources>
 

@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">21.44dp</dimen>
+    <dimen name="nav_header_height">214.4dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">21.44dp</dimen>
+
+    <dimen name="home_page_title_height">64.32dp</dimen>
+    <dimen name="hm_content_pinned_height">48.24dp</dimen>
+    <dimen name="wm_page_title_height">67.0dp</dimen>
+    <dimen name="home_page_fragment_item_height">83.08dp</dimen>
+    <dimen name="home_page_line_item_height">112.56dp</dimen>
+    <dimen name="home_page_title_back_margin_right">42.88dp</dimen>
+    <dimen name="home_page_fragment_info_margin">26.8dp</dimen>
+    <dimen name="home_page_frame_iv_margin_bottom">21.44dp</dimen>
+    <dimen name="home_page_text_margin">10.72dp</dimen>
+    <dimen name="home_page_wimo_home_tv_margin_bottom">64.32dp</dimen>
+    <dimen name="home_page_fragment_info_iv_margin_left">21.44dp</dimen>
+    <dimen name="home_page_fragment_item_margin">5.36dp</dimen>
+    <dimen name="home_page_fragment_item_margin_bottom">2.68dp</dimen>
+    <dimen name="home_page_fragment_item_margin_left">16.08dp</dimen>
+    <dimen name="remote_control_middle_bg_length">375.2dp</dimen>
+    <dimen name="remote_control_middle_bg_margin_top">73.7dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="drawer_shadow_width">20.1ip</dimen>
+    <dimen name="drawer_remind_width">116.58ip</dimen>
+    <dimen name="drawer_remind_videoplay_width">607.02ip</dimen>
+    <dimen name="drawer_remind_videoplay_width_2">542.7ip</dimen>
+    <dimen name="device_sd_mgmt_item_padding_top">20.1dp</dimen>
+    <dimen name="device_sd_mgmt_item_padding_bottom">20.1dp</dimen>
+    <dimen name="sp20">26.8sp</dimen>
+    <dimen name="sp22">29.48sp</dimen>
+    <dimen name="auth_list_item">24.12sp</dimen>
+    <dimen name="sp18">24.12sp</dimen>
+    <dimen name="sp16">21.44dp</dimen>
+    <!-- line manager -->
+    <dimen name="item_padding">1.34dp</dimen>
+    <dimen name="item_margin_top">17.42dp</dimen>
+    <dimen name="item_margin_left">25.46dp</dimen>
+    <dimen name="item_margin_right">18.76dp</dimen>
+    <dimen name="item_text_margin_top">26.8dp</dimen>
+    <dimen name="item_text_margin_top1">29.48dp</dimen>
+    <dimen name="item_text_spacing">5.36dp</dimen>
+    <dimen name="item_iv_margin_right">16.08dp</dimen>
+    <dimen name="item_iv_margin_left">5.36dp</dimen>
+    <!-- hm music list head-->
+    <dimen name="hm_mlhiv_length">28.14dp</dimen>
+    <dimen name="hm_mlhiv_mleft">10.72dp</dimen>
+    <dimen name="hm_mlhiv_mtop">13.4dp</dimen>
+
+    <!-- hm music play pop-->
+    <dimen name="hm_mpp_voice_width">143.38dp</dimen>
+    <dimen name="hm_mpp_mtop">24.12dp</dimen>
+    <dimen name="hm_mpp_tv_margin">9.38dp</dimen>
+    <dimen name="hm_mpp_voice_margin">-6.7dp</dimen>
+    <dimen name="hm_mpp_mcv_marginRight">-13.4dp</dimen>
+    <!-- hm movie play pop-->
+    <dimen name="hm_mpp_voice_marginTop">107.2dp</dimen>
+    <dimen name="hm_mpp_voice_marginRight">10.72dp</dimen>
+    <dimen name="hm_mpp_text_size">13.4sp</dimen>
+    <!-- hm music list head text size -->
+    <dimen name="hm_mlhtv_size">24.12sp</dimen>
+    <!-- hm music list text size -->
+    <dimen name="hm_mlttv_size">20.1sp</dimen>
+    <dimen name="hm_mlatv_size">14.74sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">21.44dp</dimen>
+    <dimen name="activity_vertical_margin">21.44dp</dimen>
+
+    <dimen name="line_hight">0.67dp</dimen>
+
+    <dimen name="header_height">80.4dp</dimen>
+    <dimen name="footer_height">120.6dp</dimen>
+    <dimen name="footer_padding">13.4dp</dimen>
+    <dimen name="akey_btn_size">67.0dp</dimen>
+</resources>
+

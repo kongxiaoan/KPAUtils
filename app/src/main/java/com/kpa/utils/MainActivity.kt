@@ -15,9 +15,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-//
-
     }
 
     override fun onResume() {
@@ -27,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         manager.defaultDisplay.getMetrics(outMetrics)
         val width = outMetrics.widthPixels
         val height = outMetrics.heightPixels
-        println("$width === ${height}")
+        Log.e("kuan","宽 === 高${width} === ${height}")
 
         val i = width * width + height * height
         val densityUtils = DensityUtils(this)
@@ -35,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         val config = resources.configuration
         val smallestScreenWidth = config.smallestScreenWidthDp
         Log.e("最小宽度", "smallest width : $smallestScreenWidth")
+
+        tv.setText(smallestScreenWidth.toString())
     }
 
 }
